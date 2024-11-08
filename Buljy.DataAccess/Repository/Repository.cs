@@ -1,9 +1,9 @@
 ﻿using System.Linq.Expressions;
-using Bulky.DataAccess.Repository.IRepository;
-using BulkyDataAccess.Data;
+using BulkyBook.DataAccess.Repository.IRepository;
+using BulkyBookDataAccess.Data;
 using Microsoft.EntityFrameworkCore;
 
-namespace Bulky.DataAccess.Repository
+namespace BulkyBook.DataAccess.Repository
 {
     public class Repository<T> : IRepository<T> where T : class
     {

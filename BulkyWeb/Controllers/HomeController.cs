@@ -1,9 +1,9 @@
 using System.Diagnostics;
-using Bulky.Models;
-using Bulky.Models;
+using BulkyBook.Models;
+using BulkyBook.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace BulkyWeb.Controllers
+namespace BulkyBookWeb.Controllers
 {
     public class HomeController : Controller
     {
